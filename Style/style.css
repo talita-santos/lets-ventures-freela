@@ -1,0 +1,117 @@
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #13191d;
+	padding: 15px 0;
+	z-index: 99;
+
+
+}
+
+.navLogo img{
+    width: 15%;
+    position: relative;
+    float: left;
+}
+
+.navMenu {
+	text-align: right;
+}
+
+
+
+.navMenu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.navMenu ul li a {
+    color: #ffffff;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.navMenu ul li a:hover {
+	color: #ffffff;
+	color: #00cf65;
+}
+
+/* .navMenu ul li a:link {
+	color: #00cf65;
+} */
+
+/* .header_menu ul li a:hover {
+	color:#ffffff;
+
+} */
+
+/* a:link {
+	color: #00cf65;
+} */
+
+.carousel-item{
+    margin-top: 85px;
+    text-align: center;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ecossistema{
+	          
+	background-image: url(../Assets/img/02.png);
+    padding: 100px;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+.ecossistemaTitulo{
+	text-transform: uppercase;
+
+}
+
+.ecossistemaTransparente h2{
+	-webkit-text-stroke: 1px white;
+    font-weight: 800;
+    line-height: 30px;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+	filter: alpha opacity(45);
+	
+}
+.ecossistemaTexto{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 25em;
+	font-style:italic;
+
+}
+
+hr{
+   background: #00cf65;  
+   padding: 1px;
+   width: 10%;
+   
+}
+
+/* .spanMarcaTexto {
+	position: relative;
+  }
+  
+  .spanMarcaTexto {
+	/* width: 50%; */
+	/* display: inline-block; */
+	/* background-color:#00cf65; */
+	/* height: 50px; */
+	/* position: absolute; */
+	/* z-index: -1; */
+		/* bottom: 0.25rem; */
+  /* } */ 
