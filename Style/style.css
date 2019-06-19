@@ -9,6 +9,8 @@
 
 }
 
+
+
 .navLogo img{
     width: 15%;
     position: relative;
@@ -28,41 +30,27 @@
 }
 
 .navMenu ul li a {
-    color: #ffffff;
+    color: #ffffff; 
 	letter-spacing: .1em;
 	font-size: 14px;
 	line-height: 20px;
 	padding: 10px 0;
 }
 
-.navMenu ul li a:hover {
-	color: #ffffff;
-	color: #00cf65;
-}
 
-/* .navMenu ul li a:link {
-	color: #00cf65;
-} */
-
-/* .header_menu ul li a:hover {
-	color:#ffffff;
-
-} */
-
-/* a:link {
-	color: #00cf65;
-} */
 
 .carousel-item{
     margin-top: 85px;
     text-align: center;
-    height: 500px;
+    /* height: 500px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.ecossistema{
+
+
+.ecossistema {
 	          
 	background-image: url(../Assets/img/02.png);
     padding: 100px;
@@ -77,7 +65,7 @@
 
 }
 
-.ecossistemaTransparente h2{
+.ecossistemaTransparente {
 	-webkit-text-stroke: 1px white;
     font-weight: 800;
     line-height: 30px;
@@ -90,7 +78,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
-	width: 25em;
+	max-width: 25em;
 	font-style:italic;
 
 }
@@ -102,16 +90,29 @@ hr{
    
 }
 
-/* .spanMarcaTexto {
-	position: relative;
+
+  @media (max-width: 1024px) {
+	.nav .header .navLogo img .navMenu .carousel-item .ecossistema .ecossistemaTitulo .ecossistemaTransparente{
+		width: 100%;
+		padding: 10px;
+	
+	}
   }
   
-  .spanMarcaTexto {
-	/* width: 50%; */
-	/* display: inline-block; */
-	/* background-color:#00cf65; */
-	/* height: 50px; */
-	/* position: absolute; */
-	/* z-index: -1; */
-		/* bottom: 0.25rem; */
-  /* } */ 
+  /* @media (max-width: 768px) {
+	.oQueFazemos .containerSection .containerDiv--card .botao--oQueFazemos, .noticiaBtnMae .noticiasBtn {
+	  border-radius: 0.1875rem;
+	  padding: 0.525rem 0.75rem;
+	  font-size: 1rem;
+	  font-weight: lighter;
+	}
+  }
+  
+  @media (max-width: 420px) {
+	.oQueFazemos .containerSection .containerDiv--card .botao--oQueFazemos, .noticiaBtnMae .noticiasBtn {
+	  border-radius: 0.1025rem;
+	  padding: 0.2871rem 0.41rem;
+	  font-size: 1rem;
+	  font-weight: lighter;
+	}
+  } */ 
