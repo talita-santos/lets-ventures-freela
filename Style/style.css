@@ -1,89 +1,158 @@
-.header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background: #13191d;
-	padding: 15px 0;
-	z-index: 99;
+/* .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #13191d;
+    padding: 15px 0;
+    z-index: 99;
+}  */
 
+
+.navbar {
+    /* top: 0; */
+    /* width: 100%; */
+    background: #13191d;
+    padding: 20px 0 !important;
+    z-index: 99;
+    text-align: right;
 
 }
 
 
 
-.navLogo img{
+.navbar-brand img{
+    width: 50%;
+    margin-right: 60px;
+    
+/* position: absolute; */
+    /* position: relative; */
+    /* float: left; */
+}
+
+/* .navLogo img{
     width: 15%;
     position: relative;
     float: left;
+} */
+
+/* .navMenu {
+    text-align: right;
+} */
+
+.navbar-nav a{
+    color: #ffffff !important;
+    padding-right: 0rem;
+    margin-right: 10px;
+    margin-left: 50px;
+    font-size: 14px;
+
 }
 
-.navMenu {
-	text-align: right;
+
+
+/* /* .navbar-nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px; */
+
+
+/* } */ 
+
+.navbar-nav ul li a{
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+   
+
+
 }
 
+.collapse a{
+    display: flex;
+    align-items: flex-end;
+}
+    
 
 
-.navMenu ul li {
-	display: inline-block;
-	margin-left: 25px;
-	margin-top: 20px;
+    
+
+
+
+
+
+
+/* .navMenu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
 .navMenu ul li a {
-    color: #ffffff; 
-	letter-spacing: .1em;
-	font-size: 14px;
-	line-height: 20px;
-	padding: 10px 0;
-}
+    color: #ffffff;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+} */
 
 
 
 .carousel-item{
-    margin-top: 85px;
-    text-align: center;
+    /* margin-top: px; */
+    /* text-align: center;
     /* height: 500px; */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif; */ 
+    width: 100%;
+
 }
 
 
 
 .ecossistema {
-	          
-	background-image: url(../Assets/img/02.png);
+              
+    background-image: url(../Assets/img/02.png);
     padding: 100px;
-	background-size: cover;
-	color: #ffffff;
-	text-align: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
 
 }
 
 .ecossistemaTitulo{
-	text-transform: uppercase;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
 
 }
 
 .ecossistemaTransparente {
-	-webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px white;
     font-weight: 800;
     line-height: 30px;
     opacity:0.45;
     -moz-opacity: 0.45;
-	filter: alpha opacity(45);
-	
+    filter: alpha opacity(45);
+    
 }
 .ecossistemaTexto{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	max-width: 25em;
-	font-style:italic;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 25em;
+    font-style:italic;
+    font-weight: bold;
+
 
 }
 
-hr{
+.linha{
    background: #00cf65;  
    padding: 1px;
    width: 10%;
@@ -91,28 +160,27 @@ hr{
 }
 
 
-  @media (max-width: 1024px) {
-	.nav .header .navLogo img .navMenu .carousel-item .ecossistema .ecossistemaTitulo .ecossistemaTransparente{
-		width: 100%;
-		padding: 10px;
-	
-	}
+   @media (max-width: 1024px) {
+    .carousel
+        width: 100px;
+    
+    }
   }
-  
+ 
   /* @media (max-width: 768px) {
-	.oQueFazemos .containerSection .containerDiv--card .botao--oQueFazemos, .noticiaBtnMae .noticiasBtn {
-	  border-radius: 0.1875rem;
-	  padding: 0.525rem 0.75rem;
-	  font-size: 1rem;
-	  font-weight: lighter;
-	}
+    .oQueFazemos .containerSection .containerDiv--card .botao--oQueFazemos, .noticiaBtnMae .noticiasBtn {
+      border-radius: 0.1875rem;
+      padding: 0.525rem 0.75rem;
+      font-size: 1rem;
+      font-weight: lighter;
+    }
   }
-  
+ 
   @media (max-width: 420px) {
-	.oQueFazemos .containerSection .containerDiv--card .botao--oQueFazemos, .noticiaBtnMae .noticiasBtn {
-	  border-radius: 0.1025rem;
-	  padding: 0.2871rem 0.41rem;
-	  font-size: 1rem;
-	  font-weight: lighter;
-	}
+    .oQueFazemos .containerSection .containerDiv--card .botao--oQueFazemos, .noticiaBtnMae .noticiasBtn {
+      border-radius: 0.1025rem;
+      padding: 0.2871rem 0.41rem;
+      font-size: 1rem;
+      font-weight: lighter;
+    }
   } */ 

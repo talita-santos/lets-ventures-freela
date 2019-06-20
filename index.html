@@ -12,9 +12,49 @@
 
 <body>
     <!--O header vai conter a nav e o carrossel com a imagem bem grandona-->
-    <section class="nav">
 
-        <header class="header">
+
+        <!-- <div class="container"> -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">
+                    <img src="./Assets/logo-lets.png" alt="Logo da Aceleradora Corporativa Lets Ventures">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ecossistemaMenu">Nosso Ecossistema</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Beneficios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Como Funciona</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                    </ul>
+                </div>
+            </nav>
+       
+   
+    <!-- <header class="header">
             <div class="container">
                 <a href="index.html" class="navLogo">
                     <img src="./Assets/logo-lets.png" alt="Logo da Aceleradora Corporativa Lets Ventures">
@@ -31,16 +71,18 @@
                     </ul>
                 </nav>
             </div>
-        </header>
-    </section>
+         </header> -->
+
+
 
     <section>
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">            
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./Assets/img/01Slide_01.png" class="d-block w-100" alt="...">
+                    <img class="d-block w-100" src="./Assets/img/01Slide_01.png"     alt="Primeiro Slide">
                 </div>
+             
             </div>
         </div>
 
@@ -52,7 +94,7 @@
                 </li> -->
     <!-- </ul>
 
-    </nav> --> 
+    </nav> -->
 
     <!-- <div id="carousel">
 
@@ -60,19 +102,21 @@
 
 
     <!--Aqui é a segunda section com os textos-->
-    <section class="ecossistema">
+    <section id="#ecossistemaMenu" class="ecossistema">
 
         <div>
 
             <h1 class="ecossistemaTitulo">Nosso</h1>
 
-        <div class="ecossistemaTransparente">
-            <h2>Ecossistema</h2>
-        </div>
+            <div class="ecossistemaTransparente">
+                <h2>Ecossistema</h2>
+            </div>
 
-            <hr>
-            <p class="ecossistemaTexto">Somos parte de um ecossistema de inovação formado pelo Polinize, nosso hub digital de startups; Metrics, nosso sistema de avaliação de startups e Lets, nosso programa de aceleração corporativa</p>
-            
+            <hr class="linha">
+            <p class="ecossistemaTexto">Somos parte de um ecossistema de inovação formado pelo Polinize, nosso hub
+                digital de startups; Metrics, nosso sistema de avaliação de startups e Lets, nosso programa de
+                aceleração corporativa</p>
+
         </div>
 
     </section>
