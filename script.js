@@ -1,8 +1,38 @@
 $(document).ready(function () {
 
+
+
     $(function () {
         $('.dropdown-toggle').dropdown();
+
+        
+
+
     });
+
+
+    $(function () {
+        $('.navbar-nav').slideToggle();     
+
+        
+
+
+    });
+
+    // $(function () {
+    //     // $('.dropdown-toggle').dropdown();
+
+    //     $('.navbar-nav li a').click(function () {
+    //         if (!$(this).parent().hasClass('dropdown')) {
+    //             $('.navbar-collapse').collapse('hide');
+    //         }
+    //     });
+
+
+    // });
+
+
+
 });
 
 //     $('.menuHamburguer').click(function (event) {
